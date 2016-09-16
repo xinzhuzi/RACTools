@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E68EA09F1D8BC54D009E5BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA09E1D8BC54D009E5BFB /* main.m */; };
+		E68EA0A21D8BC54D009E5BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */; };
+		E68EA0AA1D8BC54D009E5BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0A91D8BC54D009E5BFB /* Assets.xcassets */; };
+		E68EA0B61D8BC983009E5BFB /* RAC主要类结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0B51D8BC983009E5BFB /* RAC主要类结构图.png */; };
+		E68EA0B81D8BC99B009E5BFB /* RAC作用图.png in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0B71D8BC99B009E5BFB /* RAC作用图.png */; };
+		E68EA0C01D8BCD65009E5BFB /* MainTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0BB1D8BCD65009E5BFB /* MainTabbar.m */; };
+		E68EA0C11D8BCD65009E5BFB /* Nav_Base_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0BD1D8BCD65009E5BFB /* Nav_Base_VC.m */; };
+		E68EA0C21D8BCD65009E5BFB /* Parent_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0BF1D8BCD65009E5BFB /* Parent_Class_VC.m */; };
+		E68EA0C71D8BCF1B009E5BFB /* RACClass_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0C61D8BCF1B009E5BFB /* RACClass_VC.m */; };
+		E68EA0CD1D8BCF58009E5BFB /* RACUI_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0CC1D8BCF58009E5BFB /* RACUI_VC.m */; };
+		E68EA0D01D8BCFAD009E5BFB /* RACCommonFunction_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0CF1D8BCFAD009E5BFB /* RACCommonFunction_VC.m */; };
+		E68EA0D31D8BCFD0009E5BFB /* RACCustomSignal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0D21D8BCFD0009E5BFB /* RACCustomSignal_VC.m */; };
+		E68EA0D61D8BD2DE009E5BFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E68EA09A1D8BC54D009E5BFB /* RACTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68EA09E1D8BC54D009E5BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E68EA0A91D8BC54D009E5BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E68EA0AE1D8BC54D009E5BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68EA0B51D8BC983009E5BFB /* RAC主要类结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RAC主要类结构图.png"; sourceTree = "<group>"; };
+		E68EA0B71D8BC99B009E5BFB /* RAC作用图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RAC作用图.png"; sourceTree = "<group>"; };
+		E68EA0BA1D8BCD65009E5BFB /* MainTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabbar.h; sourceTree = "<group>"; };
+		E68EA0BB1D8BCD65009E5BFB /* MainTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabbar.m; sourceTree = "<group>"; };
+		E68EA0BC1D8BCD65009E5BFB /* Nav_Base_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav_Base_VC.h; sourceTree = "<group>"; };
+		E68EA0BD1D8BCD65009E5BFB /* Nav_Base_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav_Base_VC.m; sourceTree = "<group>"; };
+		E68EA0BE1D8BCD65009E5BFB /* Parent_Class_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent_Class_VC.h; sourceTree = "<group>"; };
+		E68EA0BF1D8BCD65009E5BFB /* Parent_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent_Class_VC.m; sourceTree = "<group>"; };
+		E68EA0C31D8BCDA6009E5BFB /* RACToolsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACToolsHeader.h; sourceTree = "<group>"; };
+		E68EA0C51D8BCF1B009E5BFB /* RACClass_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACClass_VC.h; sourceTree = "<group>"; };
+		E68EA0C61D8BCF1B009E5BFB /* RACClass_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACClass_VC.m; sourceTree = "<group>"; };
+		E68EA0CB1D8BCF58009E5BFB /* RACUI_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACUI_VC.h; sourceTree = "<group>"; };
+		E68EA0CC1D8BCF58009E5BFB /* RACUI_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACUI_VC.m; sourceTree = "<group>"; };
+		E68EA0CE1D8BCFAD009E5BFB /* RACCommonFunction_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACCommonFunction_VC.h; sourceTree = "<group>"; };
+		E68EA0CF1D8BCFAD009E5BFB /* RACCommonFunction_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCommonFunction_VC.m; sourceTree = "<group>"; };
+		E68EA0D11D8BCFD0009E5BFB /* RACCustomSignal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACCustomSignal_VC.h; sourceTree = "<group>"; };
+		E68EA0D21D8BCFD0009E5BFB /* RACCustomSignal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCustomSignal_VC.m; sourceTree = "<group>"; };
+		E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E68EA0971D8BC54C009E5BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0D61D8BD2DE009E5BFB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E68EA0911D8BC54C009E5BFB = {
+			isa = PBXGroup;
+			children = (
+				E68EA09C1D8BC54D009E5BFB /* RACTools */,
+				E68EA09B1D8BC54D009E5BFB /* Products */,
+				E68EA0D41D8BD2DE009E5BFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E68EA09B1D8BC54D009E5BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA09A1D8BC54D009E5BFB /* RACTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68EA09C1D8BC54D009E5BFB /* RACTools */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */,
+				E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */,
+				E68EA0C41D8BCF09009E5BFB /* Functions_Four */,
+				E68EA0B91D8BCD65009E5BFB /* MainBaseVC */,
+				E68EA0B41D8BC966009E5BFB /* Resource */,
+				E68EA09D1D8BC54D009E5BFB /* Supporting Files */,
+			);
+			path = RACTools;
+			sourceTree = "<group>";
+		};
+		E68EA09D1D8BC54D009E5BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0A91D8BC54D009E5BFB /* Assets.xcassets */,
+				E68EA0AE1D8BC54D009E5BFB /* Info.plist */,
+				E68EA09E1D8BC54D009E5BFB /* main.m */,
+				E68EA0C31D8BCDA6009E5BFB /* RACToolsHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E68EA0B41D8BC966009E5BFB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0B51D8BC983009E5BFB /* RAC主要类结构图.png */,
+				E68EA0B71D8BC99B009E5BFB /* RAC作用图.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E68EA0B91D8BCD65009E5BFB /* MainBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0BA1D8BCD65009E5BFB /* MainTabbar.h */,
+				E68EA0BB1D8BCD65009E5BFB /* MainTabbar.m */,
+				E68EA0BC1D8BCD65009E5BFB /* Nav_Base_VC.h */,
+				E68EA0BD1D8BCD65009E5BFB /* Nav_Base_VC.m */,
+				E68EA0BE1D8BCD65009E5BFB /* Parent_Class_VC.h */,
+				E68EA0BF1D8BCD65009E5BFB /* Parent_Class_VC.m */,
+			);
+			path = MainBaseVC;
+			sourceTree = "<group>";
+		};
+		E68EA0C41D8BCF09009E5BFB /* Functions_Four */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0C51D8BCF1B009E5BFB /* RACClass_VC.h */,
+				E68EA0C61D8BCF1B009E5BFB /* RACClass_VC.m */,
+				E68EA0CB1D8BCF58009E5BFB /* RACUI_VC.h */,
+				E68EA0CC1D8BCF58009E5BFB /* RACUI_VC.m */,
+				E68EA0CE1D8BCFAD009E5BFB /* RACCommonFunction_VC.h */,
+				E68EA0CF1D8BCFAD009E5BFB /* RACCommonFunction_VC.m */,
+				E68EA0D11D8BCFD0009E5BFB /* RACCustomSignal_VC.h */,
+				E68EA0D21D8BCFD0009E5BFB /* RACCustomSignal_VC.m */,
+			);
+			path = Functions_Four;
+			sourceTree = "<group>";
+		};
+		E68EA0D41D8BD2DE009E5BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E68EA0991D8BC54C009E5BFB /* RACTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68EA0B11D8BC54D009E5BFB /* Build configuration list for PBXNativeTarget "RACTools" */;
+			buildPhases = (
+				E68EA0961D8BC54C009E5BFB /* Sources */,
+				E68EA0971D8BC54C009E5BFB /* Frameworks */,
+				E68EA0981D8BC54C009E5BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACTools;
+			productName = RACTools;
+			productReference = E68EA09A1D8BC54D009E5BFB /* RACTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E68EA0921D8BC54C009E5BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = IceGod;
+				TargetAttributes = {
+					E68EA0991D8BC54C009E5BFB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E68EA0951D8BC54C009E5BFB /* Build configuration list for PBXProject "RACTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E68EA0911D8BC54C009E5BFB;
+			productRefGroup = E68EA09B1D8BC54D009E5BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E68EA0991D8BC54C009E5BFB /* RACTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E68EA0981D8BC54C009E5BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0B61D8BC983009E5BFB /* RAC主要类结构图.png in Resources */,
+				E68EA0B81D8BC99B009E5BFB /* RAC作用图.png in Resources */,
+				E68EA0AA1D8BC54D009E5BFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E68EA0961D8BC54C009E5BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68EA0CD1D8BCF58009E5BFB /* RACUI_VC.m in Sources */,
+				E68EA0D31D8BCFD0009E5BFB /* RACCustomSignal_VC.m in Sources */,
+				E68EA0A21D8BC54D009E5BFB /* AppDelegate.m in Sources */,
+				E68EA09F1D8BC54D009E5BFB /* main.m in Sources */,
+				E68EA0C71D8BCF1B009E5BFB /* RACClass_VC.m in Sources */,
+				E68EA0C01D8BCD65009E5BFB /* MainTabbar.m in Sources */,
+				E68EA0C21D8BCD65009E5BFB /* Parent_Class_VC.m in Sources */,
+				E68EA0D01D8BCFAD009E5BFB /* RACCommonFunction_VC.m in Sources */,
+				E68EA0C11D8BCD65009E5BFB /* Nav_Base_VC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E68EA0AF1D8BC54D009E5BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E68EA0B01D8BC54D009E5BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E68EA0B21D8BC54D009E5BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RACTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IceGod.RACTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E68EA0B31D8BC54D009E5BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RACTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IceGod.RACTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E68EA0951D8BC54C009E5BFB /* Build configuration list for PBXProject "RACTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0AF1D8BC54D009E5BFB /* Debug */,
+				E68EA0B01D8BC54D009E5BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68EA0B11D8BC54D009E5BFB /* Build configuration list for PBXNativeTarget "RACTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68EA0B21D8BC54D009E5BFB /* Debug */,
+				E68EA0B31D8BC54D009E5BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E68EA0921D8BC54C009E5BFB /* Project object */;
+}
