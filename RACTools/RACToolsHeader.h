@@ -107,7 +107,7 @@ return _instace; \
 
 #pragma mark ---------------第三方库--------------
 
-//#import "ReactiveCocoa/ReactiveCocoa.h"
+#import "ReactiveCocoa/ReactiveCocoa.h"
 
 #pragma mark ---------------小工具--------------
 

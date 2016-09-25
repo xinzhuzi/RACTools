@@ -45,7 +45,7 @@
     // 底层实现：当信号被订阅，会遍历集合中的原始值，映射成新值，并且保存到新的数组里。
     NSArray *flags = [[dictArr.rac_sequence map:^id(id value) {
         NSLog(@"value:%@",value);
-        return [CustomTools jsonStringFrom:value];
+        return [NSString stringWithFormat:@"组装这个%@",value];
     }] array];
     NSLog(@"%@",flags[2]);
 }

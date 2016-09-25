@@ -49,9 +49,13 @@
 		E6A2AB3C1D8D157300CEA4B7 /* ReactiveCocoa1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */; };
 		E6A2AB3D1D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */; };
 		E6A2AB3E1D8D157300CEA4B7 /* RXSwift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB391D8D157300CEA4B7 /* RXSwift.png */; };
+		F02EB0F671B7D774AD997032 /* Pods_RACTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22A5C90C0B8D7C3731D67FAC /* Pods-RACTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTools/Pods-RACTools.debug.xcconfig"; sourceTree = "<group>"; };
+		8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTools/Pods-RACTools.release.xcconfig"; sourceTree = "<group>"; };
 		E68EA09A1D8BC54D009E5BFB /* RACTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68EA09E1D8BC54D009E5BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,18 +141,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				E68EA0D61D8BD2DE009E5BFB /* UIKit.framework in Frameworks */,
+				F02EB0F671B7D774AD997032 /* Pods_RACTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D9519B5FD70D8453960441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22A5C90C0B8D7C3731D67FAC /* Pods-RACTools.debug.xcconfig */,
+				9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E68EA0911D8BC54C009E5BFB = {
 			isa = PBXGroup;
 			children = (
 				E68EA09C1D8BC54D009E5BFB /* RACTools */,
 				E68EA09B1D8BC54D009E5BFB /* Products */,
 				E68EA0D41D8BD2DE009E5BFB /* Frameworks */,
+				52D9519B5FD70D8453960441 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */,
+				8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -353,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E68EA0B11D8BC54D009E5BFB /* Build configuration list for PBXNativeTarget "RACTools" */;
 			buildPhases = (
+				2CF0B3AC84800EFC410F6D7A /* 📦 Check Pods Manifest.lock */,
 				E68EA0961D8BC54C009E5BFB /* Sources */,
 				E68EA0971D8BC54C009E5BFB /* Frameworks */,
 				E68EA0981D8BC54C009E5BFB /* Resources */,
+				05384FB419AF2B4FF2E8921E /* 📦 Embed Pods Frameworks */,
+				6971AABB1242C6AD5B5C0705 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,6 +396,7 @@
 				TargetAttributes = {
 					E68EA0991D8BC54C009E5BFB = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -416,6 +436,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05384FB419AF2B4FF2E8921E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACTools/Pods-RACTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CF0B3AC84800EFC410F6D7A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6971AABB1242C6AD5B5C0705 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACTools/Pods-RACTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E68EA0961D8BC54C009E5BFB /* Sources */ = {
@@ -553,6 +621,7 @@
 		};
 		E68EA0B21D8BC54D009E5BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A5C90C0B8D7C3731D67FAC /* Pods-RACTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -561,12 +630,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IceGod.RACTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/ReactiveCocoa/**";
 			};
 			name = Debug;
 		};
 		E68EA0B31D8BC54D009E5BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -575,7 +647,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IceGod.RACTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/ReactiveCocoa/**";
 			};
 			name = Release;
 		};
