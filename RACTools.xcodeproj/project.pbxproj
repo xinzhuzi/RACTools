@@ -49,6 +49,7 @@
 		E6A2AB3C1D8D157300CEA4B7 /* ReactiveCocoa1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */; };
 		E6A2AB3D1D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */; };
 		E6A2AB3E1D8D157300CEA4B7 /* RXSwift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB391D8D157300CEA4B7 /* RXSwift.png */; };
+		E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F459301DA3DD4F004B932D /* RACSignal_VC.m */; };
 		F02EB0F671B7D774AD997032 /* Pods_RACTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,8 @@
 		E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactiveCocoa1.png; sourceTree = "<group>"; };
 		E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReactiveCocoaV4.x-Swift.png"; sourceTree = "<group>"; };
 		E6A2AB391D8D157300CEA4B7 /* RXSwift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RXSwift.png; sourceTree = "<group>"; };
+		E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignal_VC.h; sourceTree = "<group>"; };
+		E6F459301DA3DD4F004B932D /* RACSignal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignal_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,7 @@
 			children = (
 				E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */,
 				E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */,
+				E6F4592E1DA3DCB6004B932D /* 主要的类 */,
 				E6A2AAE51D8D156700CEA4B7 /* RAC高聚合低耦合 */,
 				E68EA0C41D8BCF09009E5BFB /* Functions_Four */,
 				E68EA0B91D8BCD65009E5BFB /* MainBaseVC */,
@@ -362,6 +366,15 @@
 			path = "重要类VC";
 			sourceTree = "<group>";
 		};
+		E6F4592E1DA3DCB6004B932D /* 主要的类 */ = {
+			isa = PBXGroup;
+			children = (
+				E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */,
+				E6F459301DA3DD4F004B932D /* RACSignal_VC.m */,
+			);
+			path = "主要的类";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -497,6 +510,7 @@
 				E6A2AB241D8D156700CEA4B7 /* Replay_Functions_VC.m in Sources */,
 				E6A2AB2D1D8D156700CEA4B7 /* Macros_VC.m in Sources */,
 				E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */,
+				E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */,
 				E6A2AB341D8D156700CEA4B7 /* Signal_Class_VC.m in Sources */,
 				E6A2AB2C1D8D156700CEA4B7 /* ZIP_Functions_VC.m in Sources */,
 				E6A2AB1F1D8D156700CEA4B7 /* Combine_Functions_VC.m in Sources */,

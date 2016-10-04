@@ -17,9 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    arrayVClass = @[@"Signal_Class_VC"].mutableCopy;
-    
-    
+    arrayVClass = @[@"RACSignal_VC"].mutableCopy;
 }
 
 
