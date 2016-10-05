@@ -7,6 +7,7 @@
 //
 
 #import "RACSignal_VC.h"
+#import "SignalTestView.h"
 
 @interface RACSignal_VC ()
 
@@ -127,6 +128,24 @@
     // 3.订阅信号,然后订阅信号接收
     [replaySubject subscribeNext:^(id x) {
         NSLog(@"RACReplaySubject:第2个订阅者接收到的数据%@",x);
+    }];
+}
+
+
+/**
+ 采用RAC替换代理
+ */
+- (void)textSignalReplaceDelegate{
+    SignalTestView *stView = [[SignalTestView alloc]initWithFrame:CGRectMake(0, 64, Screen_W, Screen_H-64)];
+    [self.view addSubview:stView];
+    [stView.delegateSignal subscribeNext:^(id x) {
+        NSLog(@"点击了button,传递过来一个button,这个不属于真正的代理协议:%@",x);
+    }];
+    
+    RACSignal *trueSignal = [stView rac_signalForSelector:@selector(testButtonClickDelegate:) fromProtocol:@protocol(SignalTestViewDelegate)];
+    [trueSignal subscribeNext:^(id x) {
+        RACTupleUnpack(NSNumber *number)=x;
+        NSLog(@"协议替换成RAC中的runtime操作,这才是真正的代理协议,参数:%@",number);
     }];
 }
 

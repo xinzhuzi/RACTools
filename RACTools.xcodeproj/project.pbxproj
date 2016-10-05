@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E637EC2C1DA4FB61007C7AD5 /* SignalTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E637EC2B1DA4FB61007C7AD5 /* SignalTestView.m */; };
 		E68EA09F1D8BC54D009E5BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA09E1D8BC54D009E5BFB /* main.m */; };
 		E68EA0A21D8BC54D009E5BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */; };
 		E68EA0AA1D8BC54D009E5BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0A91D8BC54D009E5BFB /* Assets.xcassets */; };
@@ -43,7 +44,6 @@
 		E6A2AB311D8D156700CEA4B7 /* Command_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB161D8D156700CEA4B7 /* Command_VC.m */; };
 		E6A2AB321D8D156700CEA4B7 /* Multicast_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */; };
 		E6A2AB331D8D156700CEA4B7 /* Sequence_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */; };
-		E6A2AB341D8D156700CEA4B7 /* Signal_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB1C1D8D156700CEA4B7 /* Signal_Class_VC.m */; };
 		E6A2AB3A1D8D157300CEA4B7 /* ColdHotSignal.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB351D8D157300CEA4B7 /* ColdHotSignal.png */; };
 		E6A2AB3B1D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB361D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png */; };
 		E6A2AB3C1D8D157300CEA4B7 /* ReactiveCocoa1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */; };
@@ -57,6 +57,8 @@
 		22A5C90C0B8D7C3731D67FAC /* Pods-RACTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACTools/Pods-RACTools.debug.xcconfig"; sourceTree = "<group>"; };
 		8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTools/Pods-RACTools.release.xcconfig"; sourceTree = "<group>"; };
+		E637EC2A1DA4FB61007C7AD5 /* SignalTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalTestView.h; sourceTree = "<group>"; };
+		E637EC2B1DA4FB61007C7AD5 /* SignalTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalTestView.m; sourceTree = "<group>"; };
 		E68EA09A1D8BC54D009E5BFB /* RACTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68EA09E1D8BC54D009E5BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,8 +129,6 @@
 		E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multicast_Class_VC.m; sourceTree = "<group>"; };
 		E6A2AB191D8D156700CEA4B7 /* Sequence_Class_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence_Class_VC.h; sourceTree = "<group>"; };
 		E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequence_Class_VC.m; sourceTree = "<group>"; };
-		E6A2AB1B1D8D156700CEA4B7 /* Signal_Class_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Signal_Class_VC.h; sourceTree = "<group>"; };
-		E6A2AB1C1D8D156700CEA4B7 /* Signal_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Signal_Class_VC.m; sourceTree = "<group>"; };
 		E6A2AB351D8D157300CEA4B7 /* ColdHotSignal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColdHotSignal.png; sourceTree = "<group>"; };
 		E6A2AB361D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReactiveCocoa-Objective-C.png"; sourceTree = "<group>"; };
 		E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactiveCocoa1.png; sourceTree = "<group>"; };
@@ -158,6 +158,15 @@
 				9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E637EC291DA4FB42007C7AD5 /* TestViews */ = {
+			isa = PBXGroup;
+			children = (
+				E637EC2A1DA4FB61007C7AD5 /* SignalTestView.h */,
+				E637EC2B1DA4FB61007C7AD5 /* SignalTestView.m */,
+			);
+			path = TestViews;
 			sourceTree = "<group>";
 		};
 		E68EA0911D8BC54C009E5BFB = {
@@ -360,8 +369,6 @@
 				E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */,
 				E6A2AB191D8D156700CEA4B7 /* Sequence_Class_VC.h */,
 				E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */,
-				E6A2AB1B1D8D156700CEA4B7 /* Signal_Class_VC.h */,
-				E6A2AB1C1D8D156700CEA4B7 /* Signal_Class_VC.m */,
 			);
 			path = "重要类VC";
 			sourceTree = "<group>";
@@ -371,6 +378,7 @@
 			children = (
 				E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */,
 				E6F459301DA3DD4F004B932D /* RACSignal_VC.m */,
+				E637EC291DA4FB42007C7AD5 /* TestViews */,
 			);
 			path = "主要的类";
 			sourceTree = "<group>";
@@ -511,7 +519,7 @@
 				E6A2AB2D1D8D156700CEA4B7 /* Macros_VC.m in Sources */,
 				E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */,
 				E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */,
-				E6A2AB341D8D156700CEA4B7 /* Signal_Class_VC.m in Sources */,
+				E637EC2C1DA4FB61007C7AD5 /* SignalTestView.m in Sources */,
 				E6A2AB2C1D8D156700CEA4B7 /* ZIP_Functions_VC.m in Sources */,
 				E6A2AB1F1D8D156700CEA4B7 /* Combine_Functions_VC.m in Sources */,
 				E6A2AB301D8D156700CEA4B7 /* ChannelTerminal_VC.m in Sources */,
