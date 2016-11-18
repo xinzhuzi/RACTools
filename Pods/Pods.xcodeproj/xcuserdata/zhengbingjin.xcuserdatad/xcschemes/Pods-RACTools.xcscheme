@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0EC3F9B45276BC93258204C91035C3C7"
+               BlueprintIdentifier = "84929E0FA30A4A6C6C6C10B4B8513796"
                BuildableName = "Pods_RACTools.framework"
                BlueprintName = "Pods-RACTools"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0EC3F9B45276BC93258204C91035C3C7"
+            BlueprintIdentifier = "84929E0FA30A4A6C6C6C10B4B8513796"
             BuildableName = "Pods_RACTools.framework"
             BlueprintName = "Pods-RACTools"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0EC3F9B45276BC93258204C91035C3C7"
-            BuildableName = "Pods_RACTools.framework"
-            BlueprintName = "Pods-RACTools"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

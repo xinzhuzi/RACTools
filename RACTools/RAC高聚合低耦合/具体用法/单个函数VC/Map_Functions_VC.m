@@ -7,10 +7,8 @@
 //
 
 #import "Map_Functions_VC.h"
-#import "ReactiveCocoa.h"
 #import <objc/message.h>
 #import "RACTestView.h"
-#import "ReactiveCocoa/RACReturnSignal.h"
 
 @interface Map_Functions_VC ()
 
@@ -80,6 +78,7 @@
             // block作用:做返回值的处理
             // 做好处理，通过信号返回出去.
             return [RACReturnSignal return:[NSString stringWithFormat:@"bind输出:%@",value]];
+            return nil;
 //            return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
 //                [subscriber sendNext:[NSString stringWithFormat:@"bind输出:%@",value]];
 //                [subscriber sendCompleted];
