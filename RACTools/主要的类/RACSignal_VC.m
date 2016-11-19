@@ -49,7 +49,8 @@
 - (void)easyMostSendReceiveDestroy{
     //1.创建信号
     RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-        NSLog(@"创建信号:%@",self);
+        
+        NSLog(@"创建信号:%@:%@",[NSThread currentThread],self);
         //block调用时刻：每当有订阅者订阅信号，就会调用block。
         //3.发送信号
         [subscriber sendNext:@1];

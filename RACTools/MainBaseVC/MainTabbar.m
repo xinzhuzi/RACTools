@@ -36,7 +36,7 @@ SingletonM(MainTabbar)
     self.viewControllers = arrayVC;
     self.delegate=self;
     self.selectedIndex=0;
-
+    
 }
 -(Nav_Base_VC *)viewController:(UIViewController *)viewController title:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage{
     Nav_Base_VC *nav=[[Nav_Base_VC alloc]initWithRootViewController:viewController];

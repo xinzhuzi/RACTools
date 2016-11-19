@@ -37,7 +37,6 @@
 		E6A2AB2A1D8D156700CEA4B7 /* Time_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB041D8D156700CEA4B7 /* Time_Functions_VC.m */; };
 		E6A2AB2B1D8D156700CEA4B7 /* Try_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB061D8D156700CEA4B7 /* Try_Functions_VC.m */; };
 		E6A2AB2C1D8D156700CEA4B7 /* ZIP_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB081D8D156700CEA4B7 /* ZIP_Functions_VC.m */; };
-		E6A2AB2D1D8D156700CEA4B7 /* Macros_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB0B1D8D156700CEA4B7 /* Macros_VC.m */; };
 		E6A2AB2E1D8D156700CEA4B7 /* TestUIRAC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB0E1D8D156700CEA4B7 /* TestUIRAC_VC.m */; };
 		E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB111D8D156700CEA4B7 /* CustomRAC_VC.m */; };
 		E6A2AB301D8D156700CEA4B7 /* ChannelTerminal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB141D8D156700CEA4B7 /* ChannelTerminal_VC.m */; };
@@ -49,6 +48,7 @@
 		E6A2AB3C1D8D157300CEA4B7 /* ReactiveCocoa1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */; };
 		E6A2AB3D1D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */; };
 		E6A2AB3E1D8D157300CEA4B7 /* RXSwift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB391D8D157300CEA4B7 /* RXSwift.png */; };
+		E6C51EDA1DDFFC3A002DF857 /* Macros_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */; };
 		E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F459301DA3DD4F004B932D /* RACSignal_VC.m */; };
 		F02EB0F671B7D774AD997032 /* Pods_RACTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */; };
 /* End PBXBuildFile section */
@@ -115,8 +115,6 @@
 		E6A2AB061D8D156700CEA4B7 /* Try_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Try_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AB071D8D156700CEA4B7 /* ZIP_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIP_Functions_VC.h; sourceTree = "<group>"; };
 		E6A2AB081D8D156700CEA4B7 /* ZIP_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIP_Functions_VC.m; sourceTree = "<group>"; };
-		E6A2AB0A1D8D156700CEA4B7 /* Macros_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_VC.h; sourceTree = "<group>"; };
-		E6A2AB0B1D8D156700CEA4B7 /* Macros_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macros_VC.m; sourceTree = "<group>"; };
 		E6A2AB0D1D8D156700CEA4B7 /* TestUIRAC_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIRAC_VC.h; sourceTree = "<group>"; };
 		E6A2AB0E1D8D156700CEA4B7 /* TestUIRAC_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIRAC_VC.m; sourceTree = "<group>"; };
 		E6A2AB101D8D156700CEA4B7 /* CustomRAC_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRAC_VC.h; sourceTree = "<group>"; };
@@ -134,6 +132,8 @@
 		E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactiveCocoa1.png; sourceTree = "<group>"; };
 		E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReactiveCocoaV4.x-Swift.png"; sourceTree = "<group>"; };
 		E6A2AB391D8D157300CEA4B7 /* RXSwift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RXSwift.png; sourceTree = "<group>"; };
+		E6C51ED81DDFFC3A002DF857 /* Macros_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_VC.h; sourceTree = "<group>"; };
+		E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macros_VC.m; sourceTree = "<group>"; };
 		E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignal_VC.h; sourceTree = "<group>"; };
 		E6F459301DA3DD4F004B932D /* RACSignal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignal_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,6 +192,9 @@
 			children = (
 				E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */,
 				E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */,
+				E6C51ED71DDFFA06002DF857 /* 自定义信号 */,
+				E6C51ED61DDFF9FA002DF857 /* 单个函数 */,
+				E6C51ED51DDFF9E6002DF857 /* UI类使用 */,
 				E6F4592E1DA3DCB6004B932D /* 主要的类 */,
 				E6A2AAE51D8D156700CEA4B7 /* RAC高聚合低耦合 */,
 				E68EA0C41D8BCF09009E5BFB /* Functions_Four */,
@@ -279,7 +282,6 @@
 			children = (
 				E6A2AAE91D8D156700CEA4B7 /* Views */,
 				E6A2AAEC1D8D156700CEA4B7 /* 单个函数VC */,
-				E6A2AB091D8D156700CEA4B7 /* 宏命令VC */,
 				E6A2AB0C1D8D156700CEA4B7 /* 简单测试VC */,
 				E6A2AB0F1D8D156700CEA4B7 /* 自定义信号VC */,
 				E6A2AB121D8D156700CEA4B7 /* 重要类VC */,
@@ -331,15 +333,6 @@
 			path = "单个函数VC";
 			sourceTree = "<group>";
 		};
-		E6A2AB091D8D156700CEA4B7 /* 宏命令VC */ = {
-			isa = PBXGroup;
-			children = (
-				E6A2AB0A1D8D156700CEA4B7 /* Macros_VC.h */,
-				E6A2AB0B1D8D156700CEA4B7 /* Macros_VC.m */,
-			);
-			path = "宏命令VC";
-			sourceTree = "<group>";
-		};
 		E6A2AB0C1D8D156700CEA4B7 /* 简单测试VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,11 +366,34 @@
 			path = "重要类VC";
 			sourceTree = "<group>";
 		};
+		E6C51ED51DDFF9E6002DF857 /* UI类使用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI类使用";
+			sourceTree = "<group>";
+		};
+		E6C51ED61DDFF9FA002DF857 /* 单个函数 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "单个函数";
+			sourceTree = "<group>";
+		};
+		E6C51ED71DDFFA06002DF857 /* 自定义信号 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自定义信号";
+			sourceTree = "<group>";
+		};
 		E6F4592E1DA3DCB6004B932D /* 主要的类 */ = {
 			isa = PBXGroup;
 			children = (
 				E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */,
 				E6F459301DA3DD4F004B932D /* RACSignal_VC.m */,
+				E6C51ED81DDFFC3A002DF857 /* Macros_VC.h */,
+				E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */,
 				E637EC291DA4FB42007C7AD5 /* TestViews */,
 			);
 			path = "主要的类";
@@ -516,7 +532,6 @@
 				E6A2AB2A1D8D156700CEA4B7 /* Time_Functions_VC.m in Sources */,
 				E68EA0D31D8BCFD0009E5BFB /* RACCustomSignal_VC.m in Sources */,
 				E6A2AB241D8D156700CEA4B7 /* Replay_Functions_VC.m in Sources */,
-				E6A2AB2D1D8D156700CEA4B7 /* Macros_VC.m in Sources */,
 				E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */,
 				E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */,
 				E637EC2C1DA4FB61007C7AD5 /* SignalTestView.m in Sources */,
@@ -537,6 +552,7 @@
 				E68EA0C01D8BCD65009E5BFB /* MainTabbar.m in Sources */,
 				E68EA0C21D8BCD65009E5BFB /* Parent_Class_VC.m in Sources */,
 				E6A2AB1E1D8D156700CEA4B7 /* RACTestView.m in Sources */,
+				E6C51EDA1DDFFC3A002DF857 /* Macros_VC.m in Sources */,
 				E68EA0D01D8BCFAD009E5BFB /* RACCommonFunction_VC.m in Sources */,
 				E6A2AB271D8D156700CEA4B7 /* Take_Functions_VC.m in Sources */,
 				E6A2AB221D8D156700CEA4B7 /* Map_Functions_VC.m in Sources */,
