@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E637EC2C1DA4FB61007C7AD5 /* SignalTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E637EC2B1DA4FB61007C7AD5 /* SignalTestView.m */; };
+		E68251F71DEFB72E00F6E381 /* MulticastConnection_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68251F61DEFB72E00F6E381 /* MulticastConnection_VC.m */; };
+		E68251FA1DEFBDBB00F6E381 /* Command_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68251F91DEFBDBB00F6E381 /* Command_VC.m */; };
+		E68251FD1DEFCD6500F6E381 /* Text_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68251FC1DEFCD6500F6E381 /* Text_VC.m */; };
+		E68252001DEFD6C400F6E381 /* Delay_Timer_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68251FF1DEFD6C400F6E381 /* Delay_Timer_VC.m */; };
 		E68EA09F1D8BC54D009E5BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA09E1D8BC54D009E5BFB /* main.m */; };
 		E68EA0A21D8BC54D009E5BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0A11D8BC54D009E5BFB /* AppDelegate.m */; };
 		E68EA0AA1D8BC54D009E5BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68EA0A91D8BC54D009E5BFB /* Assets.xcassets */; };
@@ -21,12 +25,13 @@
 		E68EA0D01D8BCFAD009E5BFB /* RACCommonFunction_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0CF1D8BCFAD009E5BFB /* RACCommonFunction_VC.m */; };
 		E68EA0D31D8BCFD0009E5BFB /* RACCustomSignal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E68EA0D21D8BCFD0009E5BFB /* RACCustomSignal_VC.m */; };
 		E68EA0D61D8BD2DE009E5BFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */; };
-		E6A2AB1D1D8D156700CEA4B7 /* RAC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAE71D8D156700CEA4B7 /* RAC_VC.m */; };
+		E69D07FC1DF002F0004287B8 /* Map_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D07FB1DF002F0004287B8 /* Map_VC.m */; };
+		E69D07FF1DF00965004287B8 /* Bind_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D07FE1DF00965004287B8 /* Bind_VC.m */; };
+		E69D08021DF02CD8004287B8 /* Take_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D08011DF02CD8004287B8 /* Take_VC.m */; };
 		E6A2AB1E1D8D156700CEA4B7 /* RACTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAEB1D8D156700CEA4B7 /* RACTestView.m */; };
 		E6A2AB1F1D8D156700CEA4B7 /* Combine_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAEE1D8D156700CEA4B7 /* Combine_Functions_VC.m */; };
 		E6A2AB201D8D156700CEA4B7 /* Concat_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAF01D8D156700CEA4B7 /* Concat_Functions_VC.m */; };
 		E6A2AB211D8D156700CEA4B7 /* Filter_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAF21D8D156700CEA4B7 /* Filter_Functions_VC.m */; };
-		E6A2AB221D8D156700CEA4B7 /* Map_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAF41D8D156700CEA4B7 /* Map_Functions_VC.m */; };
 		E6A2AB231D8D156700CEA4B7 /* Merge_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAF61D8D156700CEA4B7 /* Merge_Functions_VC.m */; };
 		E6A2AB241D8D156700CEA4B7 /* Replay_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAF81D8D156700CEA4B7 /* Replay_Functions_VC.m */; };
 		E6A2AB251D8D156700CEA4B7 /* Retry_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAFA1D8D156700CEA4B7 /* Retry_Functions_VC.m */; };
@@ -34,21 +39,18 @@
 		E6A2AB271D8D156700CEA4B7 /* Take_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AAFE1D8D156700CEA4B7 /* Take_Functions_VC.m */; };
 		E6A2AB281D8D156700CEA4B7 /* Then_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB001D8D156700CEA4B7 /* Then_Functions_VC.m */; };
 		E6A2AB291D8D156700CEA4B7 /* Throttle_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB021D8D156700CEA4B7 /* Throttle_Functions_VC.m */; };
-		E6A2AB2A1D8D156700CEA4B7 /* Time_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB041D8D156700CEA4B7 /* Time_Functions_VC.m */; };
 		E6A2AB2B1D8D156700CEA4B7 /* Try_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB061D8D156700CEA4B7 /* Try_Functions_VC.m */; };
 		E6A2AB2C1D8D156700CEA4B7 /* ZIP_Functions_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB081D8D156700CEA4B7 /* ZIP_Functions_VC.m */; };
 		E6A2AB2E1D8D156700CEA4B7 /* TestUIRAC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB0E1D8D156700CEA4B7 /* TestUIRAC_VC.m */; };
 		E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB111D8D156700CEA4B7 /* CustomRAC_VC.m */; };
 		E6A2AB301D8D156700CEA4B7 /* ChannelTerminal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB141D8D156700CEA4B7 /* ChannelTerminal_VC.m */; };
-		E6A2AB311D8D156700CEA4B7 /* Command_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB161D8D156700CEA4B7 /* Command_VC.m */; };
-		E6A2AB321D8D156700CEA4B7 /* Multicast_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */; };
-		E6A2AB331D8D156700CEA4B7 /* Sequence_Class_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */; };
 		E6A2AB3A1D8D157300CEA4B7 /* ColdHotSignal.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB351D8D157300CEA4B7 /* ColdHotSignal.png */; };
 		E6A2AB3B1D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB361D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png */; };
 		E6A2AB3C1D8D157300CEA4B7 /* ReactiveCocoa1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */; };
 		E6A2AB3D1D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB381D8D157300CEA4B7 /* ReactiveCocoaV4.x-Swift.png */; };
 		E6A2AB3E1D8D157300CEA4B7 /* RXSwift.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A2AB391D8D157300CEA4B7 /* RXSwift.png */; };
 		E6C51EDA1DDFFC3A002DF857 /* Macros_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */; };
+		E6C51EDD1DE04B55002DF857 /* Sequence_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C51EDC1DE04B55002DF857 /* Sequence_VC.m */; };
 		E6F459311DA3DD4F004B932D /* RACSignal_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F459301DA3DD4F004B932D /* RACSignal_VC.m */; };
 		F02EB0F671B7D774AD997032 /* Pods_RACTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F61D06002D5EFC76C113F44 /* Pods_RACTools.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,14 @@
 		9261D63F28F7E72F251B2953 /* Pods-RACTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACTools/Pods-RACTools.release.xcconfig"; sourceTree = "<group>"; };
 		E637EC2A1DA4FB61007C7AD5 /* SignalTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalTestView.h; sourceTree = "<group>"; };
 		E637EC2B1DA4FB61007C7AD5 /* SignalTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalTestView.m; sourceTree = "<group>"; };
+		E68251F51DEFB72E00F6E381 /* MulticastConnection_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastConnection_VC.h; sourceTree = "<group>"; };
+		E68251F61DEFB72E00F6E381 /* MulticastConnection_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastConnection_VC.m; sourceTree = "<group>"; };
+		E68251F81DEFBDBB00F6E381 /* Command_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command_VC.h; sourceTree = "<group>"; };
+		E68251F91DEFBDBB00F6E381 /* Command_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command_VC.m; sourceTree = "<group>"; };
+		E68251FB1DEFCD6500F6E381 /* Text_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text_VC.h; sourceTree = "<group>"; };
+		E68251FC1DEFCD6500F6E381 /* Text_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text_VC.m; sourceTree = "<group>"; };
+		E68251FE1DEFD6C400F6E381 /* Delay_Timer_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delay_Timer_VC.h; sourceTree = "<group>"; };
+		E68251FF1DEFD6C400F6E381 /* Delay_Timer_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delay_Timer_VC.m; sourceTree = "<group>"; };
 		E68EA09A1D8BC54D009E5BFB /* RACTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68EA09E1D8BC54D009E5BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E68EA0A01D8BC54D009E5BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,8 +93,12 @@
 		E68EA0D11D8BCFD0009E5BFB /* RACCustomSignal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACCustomSignal_VC.h; sourceTree = "<group>"; };
 		E68EA0D21D8BCFD0009E5BFB /* RACCustomSignal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACCustomSignal_VC.m; sourceTree = "<group>"; };
 		E68EA0D51D8BD2DE009E5BFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E6A2AAE61D8D156700CEA4B7 /* RAC_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAC_VC.h; sourceTree = "<group>"; };
-		E6A2AAE71D8D156700CEA4B7 /* RAC_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAC_VC.m; sourceTree = "<group>"; };
+		E69D07FA1DF002F0004287B8 /* Map_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map_VC.h; sourceTree = "<group>"; };
+		E69D07FB1DF002F0004287B8 /* Map_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map_VC.m; sourceTree = "<group>"; };
+		E69D07FD1DF00965004287B8 /* Bind_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bind_VC.h; sourceTree = "<group>"; };
+		E69D07FE1DF00965004287B8 /* Bind_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bind_VC.m; sourceTree = "<group>"; };
+		E69D08001DF02CD8004287B8 /* Take_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Take_VC.h; sourceTree = "<group>"; };
+		E69D08011DF02CD8004287B8 /* Take_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Take_VC.m; sourceTree = "<group>"; };
 		E6A2AAEA1D8D156700CEA4B7 /* RACTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestView.h; sourceTree = "<group>"; };
 		E6A2AAEB1D8D156700CEA4B7 /* RACTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestView.m; sourceTree = "<group>"; };
 		E6A2AAED1D8D156700CEA4B7 /* Combine_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Combine_Functions_VC.h; sourceTree = "<group>"; };
@@ -93,8 +107,6 @@
 		E6A2AAF01D8D156700CEA4B7 /* Concat_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Concat_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AAF11D8D156700CEA4B7 /* Filter_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter_Functions_VC.h; sourceTree = "<group>"; };
 		E6A2AAF21D8D156700CEA4B7 /* Filter_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter_Functions_VC.m; sourceTree = "<group>"; };
-		E6A2AAF31D8D156700CEA4B7 /* Map_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map_Functions_VC.h; sourceTree = "<group>"; };
-		E6A2AAF41D8D156700CEA4B7 /* Map_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AAF51D8D156700CEA4B7 /* Merge_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_Functions_VC.h; sourceTree = "<group>"; };
 		E6A2AAF61D8D156700CEA4B7 /* Merge_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AAF71D8D156700CEA4B7 /* Replay_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Replay_Functions_VC.h; sourceTree = "<group>"; };
@@ -109,8 +121,6 @@
 		E6A2AB001D8D156700CEA4B7 /* Then_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Then_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AB011D8D156700CEA4B7 /* Throttle_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Throttle_Functions_VC.h; sourceTree = "<group>"; };
 		E6A2AB021D8D156700CEA4B7 /* Throttle_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Throttle_Functions_VC.m; sourceTree = "<group>"; };
-		E6A2AB031D8D156700CEA4B7 /* Time_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time_Functions_VC.h; sourceTree = "<group>"; };
-		E6A2AB041D8D156700CEA4B7 /* Time_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AB051D8D156700CEA4B7 /* Try_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Try_Functions_VC.h; sourceTree = "<group>"; };
 		E6A2AB061D8D156700CEA4B7 /* Try_Functions_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Try_Functions_VC.m; sourceTree = "<group>"; };
 		E6A2AB071D8D156700CEA4B7 /* ZIP_Functions_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIP_Functions_VC.h; sourceTree = "<group>"; };
@@ -121,12 +131,6 @@
 		E6A2AB111D8D156700CEA4B7 /* CustomRAC_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRAC_VC.m; sourceTree = "<group>"; };
 		E6A2AB131D8D156700CEA4B7 /* ChannelTerminal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelTerminal_VC.h; sourceTree = "<group>"; };
 		E6A2AB141D8D156700CEA4B7 /* ChannelTerminal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelTerminal_VC.m; sourceTree = "<group>"; };
-		E6A2AB151D8D156700CEA4B7 /* Command_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command_VC.h; sourceTree = "<group>"; };
-		E6A2AB161D8D156700CEA4B7 /* Command_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command_VC.m; sourceTree = "<group>"; };
-		E6A2AB171D8D156700CEA4B7 /* Multicast_Class_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multicast_Class_VC.h; sourceTree = "<group>"; };
-		E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multicast_Class_VC.m; sourceTree = "<group>"; };
-		E6A2AB191D8D156700CEA4B7 /* Sequence_Class_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence_Class_VC.h; sourceTree = "<group>"; };
-		E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequence_Class_VC.m; sourceTree = "<group>"; };
 		E6A2AB351D8D157300CEA4B7 /* ColdHotSignal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColdHotSignal.png; sourceTree = "<group>"; };
 		E6A2AB361D8D157300CEA4B7 /* ReactiveCocoa-Objective-C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReactiveCocoa-Objective-C.png"; sourceTree = "<group>"; };
 		E6A2AB371D8D157300CEA4B7 /* ReactiveCocoa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReactiveCocoa1.png; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		E6A2AB391D8D157300CEA4B7 /* RXSwift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RXSwift.png; sourceTree = "<group>"; };
 		E6C51ED81DDFFC3A002DF857 /* Macros_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros_VC.h; sourceTree = "<group>"; };
 		E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macros_VC.m; sourceTree = "<group>"; };
+		E6C51EDB1DE04B55002DF857 /* Sequence_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence_VC.h; sourceTree = "<group>"; };
+		E6C51EDC1DE04B55002DF857 /* Sequence_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sequence_VC.m; sourceTree = "<group>"; };
 		E6F4592F1DA3DD4F004B932D /* RACSignal_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignal_VC.h; sourceTree = "<group>"; };
 		E6F459301DA3DD4F004B932D /* RACSignal_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignal_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -270,8 +276,6 @@
 		E6A2AAE51D8D156700CEA4B7 /* RAC高聚合低耦合 */ = {
 			isa = PBXGroup;
 			children = (
-				E6A2AAE61D8D156700CEA4B7 /* RAC_VC.h */,
-				E6A2AAE71D8D156700CEA4B7 /* RAC_VC.m */,
 				E6A2AAE81D8D156700CEA4B7 /* 具体用法 */,
 			);
 			path = "RAC高聚合低耦合";
@@ -307,8 +311,6 @@
 				E6A2AAF01D8D156700CEA4B7 /* Concat_Functions_VC.m */,
 				E6A2AAF11D8D156700CEA4B7 /* Filter_Functions_VC.h */,
 				E6A2AAF21D8D156700CEA4B7 /* Filter_Functions_VC.m */,
-				E6A2AAF31D8D156700CEA4B7 /* Map_Functions_VC.h */,
-				E6A2AAF41D8D156700CEA4B7 /* Map_Functions_VC.m */,
 				E6A2AAF51D8D156700CEA4B7 /* Merge_Functions_VC.h */,
 				E6A2AAF61D8D156700CEA4B7 /* Merge_Functions_VC.m */,
 				E6A2AAF71D8D156700CEA4B7 /* Replay_Functions_VC.h */,
@@ -323,8 +325,6 @@
 				E6A2AB001D8D156700CEA4B7 /* Then_Functions_VC.m */,
 				E6A2AB011D8D156700CEA4B7 /* Throttle_Functions_VC.h */,
 				E6A2AB021D8D156700CEA4B7 /* Throttle_Functions_VC.m */,
-				E6A2AB031D8D156700CEA4B7 /* Time_Functions_VC.h */,
-				E6A2AB041D8D156700CEA4B7 /* Time_Functions_VC.m */,
 				E6A2AB051D8D156700CEA4B7 /* Try_Functions_VC.h */,
 				E6A2AB061D8D156700CEA4B7 /* Try_Functions_VC.m */,
 				E6A2AB071D8D156700CEA4B7 /* ZIP_Functions_VC.h */,
@@ -356,12 +356,6 @@
 			children = (
 				E6A2AB131D8D156700CEA4B7 /* ChannelTerminal_VC.h */,
 				E6A2AB141D8D156700CEA4B7 /* ChannelTerminal_VC.m */,
-				E6A2AB151D8D156700CEA4B7 /* Command_VC.h */,
-				E6A2AB161D8D156700CEA4B7 /* Command_VC.m */,
-				E6A2AB171D8D156700CEA4B7 /* Multicast_Class_VC.h */,
-				E6A2AB181D8D156700CEA4B7 /* Multicast_Class_VC.m */,
-				E6A2AB191D8D156700CEA4B7 /* Sequence_Class_VC.h */,
-				E6A2AB1A1D8D156700CEA4B7 /* Sequence_Class_VC.m */,
 			);
 			path = "重要类VC";
 			sourceTree = "<group>";
@@ -369,6 +363,8 @@
 		E6C51ED51DDFF9E6002DF857 /* UI类使用 */ = {
 			isa = PBXGroup;
 			children = (
+				E68251FB1DEFCD6500F6E381 /* Text_VC.h */,
+				E68251FC1DEFCD6500F6E381 /* Text_VC.m */,
 			);
 			path = "UI类使用";
 			sourceTree = "<group>";
@@ -376,6 +372,14 @@
 		E6C51ED61DDFF9FA002DF857 /* 单个函数 */ = {
 			isa = PBXGroup;
 			children = (
+				E68251FE1DEFD6C400F6E381 /* Delay_Timer_VC.h */,
+				E68251FF1DEFD6C400F6E381 /* Delay_Timer_VC.m */,
+				E69D07FA1DF002F0004287B8 /* Map_VC.h */,
+				E69D07FB1DF002F0004287B8 /* Map_VC.m */,
+				E69D07FD1DF00965004287B8 /* Bind_VC.h */,
+				E69D07FE1DF00965004287B8 /* Bind_VC.m */,
+				E69D08001DF02CD8004287B8 /* Take_VC.h */,
+				E69D08011DF02CD8004287B8 /* Take_VC.m */,
 			);
 			path = "单个函数";
 			sourceTree = "<group>";
@@ -394,6 +398,12 @@
 				E6F459301DA3DD4F004B932D /* RACSignal_VC.m */,
 				E6C51ED81DDFFC3A002DF857 /* Macros_VC.h */,
 				E6C51ED91DDFFC3A002DF857 /* Macros_VC.m */,
+				E6C51EDB1DE04B55002DF857 /* Sequence_VC.h */,
+				E6C51EDC1DE04B55002DF857 /* Sequence_VC.m */,
+				E68251F51DEFB72E00F6E381 /* MulticastConnection_VC.h */,
+				E68251F61DEFB72E00F6E381 /* MulticastConnection_VC.m */,
+				E68251F81DEFBDBB00F6E381 /* Command_VC.h */,
+				E68251F91DEFBDBB00F6E381 /* Command_VC.m */,
 				E637EC291DA4FB42007C7AD5 /* TestViews */,
 			);
 			path = "主要的类";
@@ -529,7 +539,6 @@
 			files = (
 				E6A2AB291D8D156700CEA4B7 /* Throttle_Functions_VC.m in Sources */,
 				E68EA0CD1D8BCF58009E5BFB /* RACUI_VC.m in Sources */,
-				E6A2AB2A1D8D156700CEA4B7 /* Time_Functions_VC.m in Sources */,
 				E68EA0D31D8BCFD0009E5BFB /* RACCustomSignal_VC.m in Sources */,
 				E6A2AB241D8D156700CEA4B7 /* Replay_Functions_VC.m in Sources */,
 				E6A2AB2F1D8D156700CEA4B7 /* CustomRAC_VC.m in Sources */,
@@ -540,26 +549,29 @@
 				E6A2AB301D8D156700CEA4B7 /* ChannelTerminal_VC.m in Sources */,
 				E68EA0A21D8BC54D009E5BFB /* AppDelegate.m in Sources */,
 				E6A2AB251D8D156700CEA4B7 /* Retry_Functions_VC.m in Sources */,
-				E6A2AB311D8D156700CEA4B7 /* Command_VC.m in Sources */,
-				E6A2AB1D1D8D156700CEA4B7 /* RAC_VC.m in Sources */,
+				E69D07FF1DF00965004287B8 /* Bind_VC.m in Sources */,
 				E68EA09F1D8BC54D009E5BFB /* main.m in Sources */,
+				E6C51EDD1DE04B55002DF857 /* Sequence_VC.m in Sources */,
 				E6A2AB281D8D156700CEA4B7 /* Then_Functions_VC.m in Sources */,
+				E68251FD1DEFCD6500F6E381 /* Text_VC.m in Sources */,
 				E6A2AB201D8D156700CEA4B7 /* Concat_Functions_VC.m in Sources */,
 				E68EA0C71D8BCF1B009E5BFB /* RACClass_VC.m in Sources */,
 				E6A2AB211D8D156700CEA4B7 /* Filter_Functions_VC.m in Sources */,
 				E6A2AB2E1D8D156700CEA4B7 /* TestUIRAC_VC.m in Sources */,
-				E6A2AB331D8D156700CEA4B7 /* Sequence_Class_VC.m in Sources */,
+				E69D07FC1DF002F0004287B8 /* Map_VC.m in Sources */,
+				E68251FA1DEFBDBB00F6E381 /* Command_VC.m in Sources */,
 				E68EA0C01D8BCD65009E5BFB /* MainTabbar.m in Sources */,
+				E68251F71DEFB72E00F6E381 /* MulticastConnection_VC.m in Sources */,
 				E68EA0C21D8BCD65009E5BFB /* Parent_Class_VC.m in Sources */,
 				E6A2AB1E1D8D156700CEA4B7 /* RACTestView.m in Sources */,
+				E68252001DEFD6C400F6E381 /* Delay_Timer_VC.m in Sources */,
 				E6C51EDA1DDFFC3A002DF857 /* Macros_VC.m in Sources */,
 				E68EA0D01D8BCFAD009E5BFB /* RACCommonFunction_VC.m in Sources */,
 				E6A2AB271D8D156700CEA4B7 /* Take_Functions_VC.m in Sources */,
-				E6A2AB221D8D156700CEA4B7 /* Map_Functions_VC.m in Sources */,
 				E6A2AB2B1D8D156700CEA4B7 /* Try_Functions_VC.m in Sources */,
 				E68EA0C11D8BCD65009E5BFB /* Nav_Base_VC.m in Sources */,
+				E69D08021DF02CD8004287B8 /* Take_VC.m in Sources */,
 				E6A2AB261D8D156700CEA4B7 /* Start_Functions_VC.m in Sources */,
-				E6A2AB321D8D156700CEA4B7 /* Multicast_Class_VC.m in Sources */,
 				E6A2AB231D8D156700CEA4B7 /* Merge_Functions_VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

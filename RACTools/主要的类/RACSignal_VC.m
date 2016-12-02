@@ -15,21 +15,35 @@
 
 @implementation RACSignal_VC
 
+- (void)dealloc{
+    NSLog(@"对象被销毁了:%s",__FUNCTION__);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"RACSignal的使用";
-    arrayVClass = @[@"RACSignal最简单的发送接收销毁",@"RACSubject信号提供与RACReplaySubject重复信号提供",@"采用RAC替换代理",@"等待多个信号都有返回值时才执行方法"].mutableCopy;
+    arrayVClass = @[@"RACSignal最简单的发送接收销毁",@"RACSubject信号提供与RACReplaySubject重复信号提供",@"采用RAC替换代理",@"等待多个信号都有返回值时才执行方法",@"实例方法通过runtime进行替换成block回调"].mutableCopy;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+    [[self rac_signalForSelector:@selector(SelectorAction)] subscribeNext:^(id  _Nullable x) {
+        RACTupleUnpack(id value)=x;
+        NSLog(@"-----%@",value);
+    }];
+#pragma clang diagnostic pop
+
+    
     
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *selString = @[@"easyMostSendReceiveDestroy",@"signalProvideAndReplay",@"textSignalReplaceDelegate",@"MultipleSignalValueReturn"][indexPath.row];
+    NSString *selString = @[@"easyMostSendReceiveDestroy",@"signalProvideAndReplay",@"textSignalReplaceDelegate",@"MultipleSignalValueReturn",@"SelectorAction"][indexPath.row];
     SEL gcdSEL = NSSelectorFromString(selString);
     if ([self respondsToSelector:gcdSEL]) {
         ((void (*)(id self, SEL))objc_msgSend)(self, gcdSEL);
     }
 }
+
 
 /**
  最简单的发送,接收,销毁
@@ -49,7 +63,6 @@
 - (void)easyMostSendReceiveDestroy{
     //1.创建信号
     RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-        
         NSLog(@"创建信号:%@:%@",[NSThread currentThread],self);
         //block调用时刻：每当有订阅者订阅信号，就会调用block。
         //3.发送信号
@@ -74,10 +87,10 @@
     }];    ///2句代码可以合成一句代码,只是码行占用较多
 
     ///可以多次订阅
-    [signal subscribeNext:^(id x) {
+     RACDisposable *disposable = [signal subscribeNext:^(id x) {
         NSLog(@"第二次订阅收到数据:%@",x);
     }];
-    
+    [disposable dispose];
 }
 
 /**
@@ -134,7 +147,7 @@
 
 
 /**
- 采用RAC替换代理
+ 采用RAC替换代理,但是有局限，只能取代没有返回值的代理方法
  */
 - (void)textSignalReplaceDelegate{
     SignalTestView *stView = [[SignalTestView alloc]initWithFrame:CGRectMake(0, 64, Screen_W, Screen_H-64)];
@@ -176,5 +189,11 @@
     NSLog(@"参数1:%@ 参数2:%@",obj1,obj2);
 }
 
+
+
+
+//- (void)SelectorAction{
+//    
+//}
 
 @end

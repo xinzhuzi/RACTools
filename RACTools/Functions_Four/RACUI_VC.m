@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    arrayVClass = @[@""].mutableCopy;
+    arrayVClass = @[@"Text_VC"].mutableCopy;
 }
 
 

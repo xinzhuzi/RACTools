@@ -22,14 +22,14 @@ SingletonM(MainTabbar)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSMutableArray *arrayVC =@[@"RACClass_VC",@"RACUI_VC",@"RACCommonFunction_VC",@"RACCustomSignal_VC"].mutableCopy;
+    NSMutableArray *arrayVC =@[@"RACClass_VC",@"RACCommonFunction_VC",@"RACUI_VC",@"RACCustomSignal_VC"].mutableCopy;
     NSArray *imageArray = @[@"tab_recent_nor",@"tab_buddy_nor",@"tab_conference_nor",@"tab_me_nor"];
     NSArray *sImageArray = @[@"tab_recent_press",@"tab_buddy_press",@"tab_conference_press",@"tab_me_press"];
     
     for (NSInteger i = 0; i<arrayVC.count; i++) {
         NSString *nameVC=arrayVC[i];
         Class VC=NSClassFromString(nameVC);
-        Nav_Base_VC *thisNav=[self viewController:VC.new title:@[@"主要类",@"UI类",@"单个函数",@"自定义信号"][i] image:[UIImage imageNamed:imageArray[i]] selectedImage:[UIImage imageNamed:sImageArray[i]]];
+        Nav_Base_VC *thisNav=[self viewController:VC.new title:@[@"主要类",@"单个函数",@"UI类",@"自定义信号"][i] image:[UIImage imageNamed:imageArray[i]] selectedImage:[UIImage imageNamed:sImageArray[i]]];
         [arrayVC replaceObjectAtIndex:i withObject:thisNav];
     }
     
