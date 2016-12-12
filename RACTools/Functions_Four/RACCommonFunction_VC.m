@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    arrayVClass = @[@"Bind_VC",@"Map_VC",@"Delay_Timer_VC",@"Take_VC"].mutableCopy;
+    arrayVClass = @[@"Bind_VC",@"Map_VC",@"Delay_Timer_VC",@"Take_VC",@"Throttle_VC",@"Merge_VC",@"Concat_VC"].mutableCopy;
 }
 
 

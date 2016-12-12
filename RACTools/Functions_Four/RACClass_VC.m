@@ -18,7 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     arrayVClass = @[@"RACSignal_VC",@"Macros_VC",@"Sequence_VC",@"MulticastConnection_VC",@"Command_VC"].mutableCopy;
-    
 }
 
 

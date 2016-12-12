@@ -1,25 +1,25 @@
 //
-//  Concat_Funtions_VC.m
-//  MyTools
+//  Concat_VC.m
+//  RACTools
 //
-//  Created by 郑冰津 on 16/9/5.
+//  Created by 郑冰津 on 2016/12/2.
 //  Copyright © 2016年 IceGod. All rights reserved.
 //
 
-#import "Concat_Functions_VC.h"
-#import <objc/message.h>
+#import "Concat_VC.h"
 
-@interface Concat_Functions_VC ()
+@interface Concat_VC ()
 
 @end
 
-@implementation Concat_Functions_VC
+@implementation Concat_VC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title= @"RAC拼接函数";
+    self.title= @"RAC拼接信号";
     arrayVClass = @[@"拼接2个信号"].mutableCopy;
+
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -31,8 +31,8 @@
 }
 - (void)racSignalLink {
     RACSignal *signal1 = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-//        [subscriber sendNext:@(1)];
-        [subscriber sendError:nil];
+                [subscriber sendNext:@(1)];
+//        [subscriber sendError:nil];
         [subscriber sendCompleted];
         return nil;
     }];
@@ -44,15 +44,15 @@
         return nil;
     }];
     NSLog(@"开始预订,合并,执行完A 后才执行 B ，而且A成功与否，B都会执行，中间出错,亦可进行下去");
-
+    ///谁在前面先回调谁的值
     [[signal2 concat:signal1] subscribeNext:^(NSNumber *value) {
         NSLog(@"RAC信号拼接------value = %@",value);
     }];
     
     RACSignal *signalC = [RACSignal createSignal:^RACDisposable *(id subscriber) {
-//        [subscriber sendNext:@"我恋爱啦"];
+        //        [subscriber sendNext:@"我恋爱啦"];
         [subscriber sendError:nil];
-
+        
         [subscriber sendCompleted];
         return nil;
     }];
@@ -68,3 +68,8 @@
 }
 
 @end
+
+
+
+
+

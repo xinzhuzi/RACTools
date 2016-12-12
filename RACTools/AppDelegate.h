@@ -19,17 +19,17 @@
 //https://github.com/ziipin-code/ZiipinTemplateProject/blob/master/rac.md
 //http://rxmarbles.com/#debounce  JS显示线路执行
 
-
-///基础学习
-//http://www.jianshu.com/p/bae2eeba118d RAC基础方法练习
-//http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/ 基础教程
-
-
 ///核心内涵函数学习
 //http://blog.sunnyxx.com/2014/03/06/rac_2_racstream/
 
 
+///基础学习
+//http://www.jianshu.com/p/bae2eeba118d RAC基础方法练习
+//http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/ 基础教程
 //http://www.jianshu.com/p/4b99ddce3bae
+
+
+
 //http://www.cnblogs.com/tangchangjiang/p/5645207.html
 //http://www.cocoachina.com/ios/20140609/8737.html
 //http://www.jianshu.com/p/e10e5ca413b7
